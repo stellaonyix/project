@@ -1,10 +1,12 @@
+//  Tis file helps in communication ,with google firebase and firestore
+// firestore holds all the  data of the project
 import * as firebase from "firebase/app";
 import 'firebase/firebase-auth';
 // import '@firebase/auth-types'
 import 'firebase/firebase-firestore';
 
 
-
+//  this block of code, allows for interaction with google firebase database
 const config = {
     apiKey: "AIzaSyAMYCPfOBeG7wfBIdt4fQojUgfXBciG9Aw",
     authDomain: "afrolace-db.firebaseapp.com",
